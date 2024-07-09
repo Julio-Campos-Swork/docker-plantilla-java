@@ -1,0 +1,20 @@
+{
+    "configurations": [
+  
+      {
+        "type": "java",
+        "name": "Spring Boot-ClinicaVeterinariaApplication<clinica_veterinaria>",
+        "request": "launch",
+        "cwd": "${workspaceFolder}/clinica_veterinaria",
+        "mainClass": "com.todocodeacademy.clinica_veterinaria.ClinicaVeterinariaApplication",
+        "projectName": "clinica_veterinaria",
+        "args": "",
+        "env": {
+          "DB_URL": "jdbc:mysql://localhost:3306/clinica_veterinaria?createDatabaseIfNotExist=true&serverTimezone=UTC",
+          "DB_USER_NAME": "root",
+          "DB_PASSWORD": " "
+        }
+      }
+    ]
+  }
+  
